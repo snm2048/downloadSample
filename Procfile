@@ -1,1 +1,1 @@
-web: java -cp target/classes;target/dependency/* Application
+web: java -Dserver.port=$PORT -jar target/downloadSample-0.0.1-SNAPSHOT.war -server.port=$PORT
